@@ -1,0 +1,12 @@
+{
+  "name": "mcp-store",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "manifest:check": "node scripts/build-catalog.mjs --manifest-check --validate-only",
+    "manifest:add": "node scripts/build-catalog.mjs --manifest-add",
+    "validate:mcp": "node scripts/build-catalog.mjs --validate-only",
+    "build:catalog": "node scripts/build-catalog.mjs"
+  }
+}
